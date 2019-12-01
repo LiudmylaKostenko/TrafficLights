@@ -1,0 +1,50 @@
+.main_wrapper {
+    margin: 0 auto;
+    position: absolute;
+    top: 50px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 200px;
+}
+
+.main_wrapper .rectangle {
+    width: 150px;
+    height: 390px;
+    background-color: black;
+    position: absolute;
+    z-index: 0;
+    margin: 0 auto;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+.main_wrapper .colors {
+    padding-top: 10px;
+}
+
+.main_wrapper .colors .lights {
+    background-color: #acf0f0;
+    border: 1px solid cornflowerblue;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    position: relative;
+    z-index: 2;
+    margin: 15px auto;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+.main_wrapper button {
+    width: 100px;
+    height: 35px;
+    position: relative;
+    z-index: 2;
+    width: 100px;
+    height: 35px;
+    top: 40px;
+    left: 50px;
+}
